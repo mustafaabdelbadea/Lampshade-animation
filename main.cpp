@@ -254,7 +254,7 @@ int main()
         else
         {
 
- open =1;
+            open =1;
             Circle cArr[cSize] =
             {
                 Circle(300, 300, 30),
@@ -299,7 +299,7 @@ int main()
         }
 
 
-      std::this_thread::sleep_for(std::chrono::seconds(1));
+        std::this_thread::sleep_for(std::chrono::seconds(1));
     }
 
     getch();
